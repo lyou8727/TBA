@@ -9,17 +9,4 @@ public class Board {
     {
         this.DngnMap = DngnMap;
     }
-    public void printMap()
-    {
-
-
-        for(Room[] row : schoolMap)
-        {
-            for (Room room : row)
-            {
-                room.print();
-            }
-            System.out.println();
-        }
-    }
 }
