@@ -16,4 +16,8 @@ public class Person {
 		 this.x = x;
 		 this.y = y;
 	 }
+	 public move (String direction)
+	 {
+		 
+	 }
 }
