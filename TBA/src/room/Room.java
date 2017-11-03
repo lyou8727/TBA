@@ -9,7 +9,7 @@ public abstract class Room {
 	    public boolean explored;
 	    private int x, y;
 
-	    public Room (Person[] occupants, Item[] items, int x, int y)
+	    public Room (boolean[] doors, Person[] occupants, Item[] items, int x, int y)
 	    {
 	    	this.x = x;
 	    	this.y = y;
@@ -18,7 +18,8 @@ public abstract class Room {
 	        this.explored = false;
 	    }
 
-	    public  Person[] getOccupants() {
+
+		public  Person[] getOccupants() {
 	        return occupants;
 	    }
 
@@ -44,6 +45,9 @@ public abstract class Room {
 	    {
 	    	return y;
 	    }
-	    public abstract void print();
+	    public void print()
+	    {
+	    	System.out.print("[  ]");
+	    }
 
 }

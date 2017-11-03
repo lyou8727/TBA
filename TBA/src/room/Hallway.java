@@ -23,7 +23,7 @@ public class Hallway extends Room {
         }
         else
         {
-            System.out.print("[   ]");
+            System.out.print("[  ]");
         }
 
     }
