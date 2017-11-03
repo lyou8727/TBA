@@ -20,7 +20,7 @@ public class Board {
 	        {
 	            for (Room room : row)
 	            {
-	                room.print();
+	                Room.print();
 	            }
 	            System.out.println();
 	        }

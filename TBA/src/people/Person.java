@@ -17,7 +17,5 @@ public class Person {
 		 this.y = y;
 	 }
 
-	public char[] print() {
-	}
 
 }
