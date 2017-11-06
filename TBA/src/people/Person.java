@@ -2,6 +2,7 @@ package people;
 
 import java.util.Scanner;
 import room.Room;
+import room.monsterRoom;
 
 public class Person {
 	
@@ -28,6 +29,7 @@ public class Person {
 	 {
 		 return superMode;
 	 }
+	 
 	 
 	 public String getName()
 	 {
