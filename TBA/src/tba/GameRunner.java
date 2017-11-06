@@ -15,11 +15,24 @@ public class GameRunner {
 // Leon You pd 6-7
 	public static void main (String[] args)
 	    {
+<<<<<<< HEAD
 	        Room[][] map = new Room[5][5];
 	    
+=======
+	        Room[][] map = new Room[8][8];
+	        for (int j = 0; j<5; j++)
+	        {
+	            for (int i = 0; i<5;i++)
+	            {
+	                
+	            }
+
+	        }
+>>>>>>> branch 'master' of https://github.com/lyou8727/TBA.git
 
 	        Board tech = new Board(map);
 
+<<<<<<< HEAD
 
 	       boolean gameOn = true;
 	        Person player1 = Utilities.createPerson();
@@ -58,6 +71,13 @@ public class GameRunner {
 	        	player1.x +=1;
 	          }  
 	        }
+=======
+	        //Person player1 = Utilities.createPerson();
+	       Scanner in = new Scanner(System.in);
+	           // System.out.println("Welcome to the Halls of Tech, " + player1.getFirstName());
+	           // map[0][0].addOccupant(player1);
+	        tech.printMap();
+>>>>>>> branch 'master' of https://github.com/lyou8727/TBA.git
 			in.close();
 }
 }
