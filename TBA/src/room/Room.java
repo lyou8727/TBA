@@ -3,26 +3,13 @@ package room;
 import people.Person;
 
 public abstract class Room {
-<<<<<<< HEAD
-=======
-	    private Item[] items;
-	    public boolean explored;
->>>>>>> branch 'master' of https://github.com/lyou8727/TBA.git
-	    private int x, y;
 
-<<<<<<< HEAD
+	    private int  x, y;
+
 	    public Room ( int x, int y)
-=======
-	    public Room ( Person[] occupants, Item[] items, int x, int y)
->>>>>>> branch 'master' of https://github.com/lyou8727/TBA.git
 	    {
 	    	this.x = x;
 	    	this.y = y;
-<<<<<<< HEAD
-=======
-	        this.items = items;
-	        this.explored = false;
->>>>>>> branch 'master' of https://github.com/lyou8727/TBA.git
 	    }
 <<<<<<< HEAD
 	    
@@ -38,13 +25,6 @@ public abstract class Room {
 	    {
 	    	return y;
 	    }
-<<<<<<< HEAD
 	    public abstract void print();
-=======
-	    public static void print()
-	    {
-	    	System.out.print("[ ]");
-	    }
 
->>>>>>> branch 'master' of https://github.com/lyou8727/TBA.git
 }

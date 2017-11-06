@@ -35,8 +35,7 @@ public class Person {
 	 {
 		 return name;
 	 }
-
-<<<<<<< HEAD
+	 
 	 public void chooseMove()
 	{
 		System.out.println("Choose a direction.");
@@ -74,7 +73,4 @@ public class Person {
 	 {
 		return y;
 	 }
-=======
-
->>>>>>> branch 'master' of https://github.com/lyou8727/TBA.git
 }
